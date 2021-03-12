@@ -1,0 +1,310 @@
+ * {
+     padding: 0;
+     margin: 0;
+ }
+ 
+ body {
+     font-family: 'Heebo', sans-serif;
+ }
+ 
+ .nav-item {
+     padding-left: 50px;
+     color: #EE6058;
+ }
+ 
+ .navbar-brand,
+ .navbar-brand:hover {
+     color: #EE6058;
+ }
+ 
+ .navbar {
+     background-color: rgb(250, 213, 135);
+ }
+ 
+ .active {
+     color: white;
+ }
+ 
+ .nav-item:hover {
+     color: white;
+ }
+ 
+ .footerkol1 {
+     text-align: right;
+     color: #EE6058;
+     margin: 0;
+     padding: 0;
+ }
+ 
+ .socialmedia {
+     font-size: 20px;
+ }
+ 
+ footer {
+     background-color: rgb(250, 213, 135);
+     margin: 0;
+     padding: 0;
+     width: 100%
+ }
+ 
+ .jumbotron {
+     background-color: rgb(250, 150, 0);
+     color: white;
+     border-radius: 0;
+ }
+ 
+ .jumbotrontekst {
+     font-size: 20px;
+     margin-left: 50px;
+ }
+ 
+ .jumbotron h1 {
+     color: white;
+     padding-bottom: 20px;
+ }
+ 
+ .callToAction {
+     margin-top: 100px;
+     margin-bottom: 20px;
+     background-color: rgb(250, 150, 0);
+     color: white;
+     border-radius: 20px;
+     height: 150px;
+ }
+ 
+ .callToAction p {
+     padding-top: 30px;
+     font-size: 25px;
+ }
+ 
+ .card-img-top {
+     height: 100%;
+     width: 100%;
+ }
+ 
+ .btn-primary {
+     background-color: #EA378A;
+     border-color: #EA378A;
+ }
+ 
+ h1,
+ h2,
+ h3 {
+     color: #EA378A;
+     margin-left: 50px;
+     padding-top: px;
+ }
+ 
+ h1 {
+     font-size: 50px;
+ }
+ 
+ .btn-primary:hover,
+ .btn-primary.focus,
+ .btn-primary:focus,
+ .btn-primary.active,
+ .btn-primary:active {
+     background-color: rgb(250, 213, 135);
+     color: #EA378A;
+     border-color: rgb(250, 213, 135);
+ }
+ 
+ .btn-primary:not(:disabled):not(.disabled).active,
+ .btn-primary:not(:disabled):not(.disabled):active {
+     background-color: rgb(250, 213, 135);
+     color: #EA378A;
+     border-color: rgb(250, 213, 135);
+ }
+ 
+ .btn-primary.focus,
+ .btn-primary:focus,
+ .btn-primary:not(:disabled):not(.disabled):active:focus {
+     box-shadow: 0 0 0 .2rem rgb(226, 160, 221);
+ }
+ 
+ .property-container {
+     clear: both;
+     margin: 25px;
+ }
+ 
+ .key-div {
+     width: 15%;
+     float: left;
+     padding-left: 25px;
+ }
+ 
+ .value-div {
+     width: 80%;
+     float: left;
+ }
+ 
+ .lijstComp h3 {
+     margin-left: 25px;
+     margin-bottom: 20px;
+ }
+ 
+ .lijstComp {
+     clear: both;
+     width: 250px;
+     margin: 25px;
+     padding-top: 25px;
+ }
+ 
+ .lijstErv ul {
+     clear: both;
+     width: 500px;
+     margin: 25px;
+     padding-left: 20px;
+ }
+ 
+ .lijstErv p {
+     padding-left: 50px;
+ }
+ 
+ .lijstErv h1,
+ h2,
+ h3 {
+     padding-top: 20px;
+ }
+ 
+ #imgErvaring {
+     height: 500px;
+     width: 500px;
+     margin-left: 300px;
+     display: inline;
+     position: absolute;
+     right: 0;
+     margin-right: 300px;
+     border-radius: 20px;
+ }
+ 
+ .vaardigheden {
+     width: 630px;
+     margin: 25px;
+     padding-top: 25px;
+ }
+ 
+ .vaardigheden h3 {
+     margin-left: 25px;
+     margin-bottom: 20px;
+ }
+ 
+ .cv_ervaring {
+     margin-left: 50px;
+     margin-top: 20px;
+ }
+ 
+ .list-group {
+     padding-left: 20px;
+ }
+ 
+ .gegevens {
+     margin-top: 20px;
+     padding-bottom: 50px;
+ }
+ 
+ .table {
+     width: 1000px;
+     margin: 50px;
+ }
+ 
+ th {
+     color: rgb(250, 150, 0);
+ }
+ 
+ #carouselFotos {
+     width: 1300px;
+     margin-left: 300px;
+ }
+ 
+ .carousel-inner {
+     overflow: hidden;
+     position: relative;
+     margin-bottom: 50px;
+ }
+ 
+ .carousel-inner img {
+     height: 600px;
+ }
+ 
+ .carousel-control-prev {
+     width: 20%;
+     right: 0;
+     left: 100px;
+     opacity: 1.0;
+ }
+ 
+ .carousel-control-next {
+     width: 20%;
+     right: 0;
+     right: 100px;
+     opacity: 1.0;
+ }
+ 
+ .overmij_uitleg h1 {
+     padding-bottom: 75px;
+     text-align: center;
+ }
+ 
+ .overmij_uitleg p {
+     padding-left: 20px;
+     margin-left: 30px;
+     margin-top: 20px;
+ }
+ 
+ #imgProgrammeren {
+     height: 350px;
+     width: 1400px;
+     padding-left: 400px;
+     margin-top: 50px;
+     margin-bottom: 50px;
+ }
+ 
+ #cv_image {
+     height: 500px;
+     width: 500px;
+     margin-left: 300px;
+     display: inline;
+     position: absolute;
+     right: 0;
+     margin-right: 300px;
+     border-radius: 20px;
+ }
+ 
+ .gallery h1 {
+     padding-top: 20px;
+     padding-bottom: 20px;
+ }
+ 
+ .gallery p {
+     padding-left: 50px;
+ }
+ 
+ .formulierContact p {
+     padding-left: 50px;
+ }
+ 
+ .formulier {
+     padding-left: 50px;
+     width: 500px;
+     padding-bottom: 50px;
+ }
+ 
+ .formulierContact label {
+     padding-bottom: 5px;
+ }
+ 
+ .formInput,
+ .btn {
+     padding-bottom: 10px;
+ }
+ 
+ #fotoNick {
+     height: 400px;
+     width: 300px;
+     display: inline;
+     position: absolute;
+     right: 0;
+     margin-right: 1000px;
+     border-radius: 20px;
+ }
